@@ -16,7 +16,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React Native](https://reactnative.dev/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Expo Bare Workflow](https://expo.io/)
-- [Jest](https://expo.io/)
+- [Jest](https://jestjs.io/)
 - [React Native Testing Library](https://callstack.github.io/react-native-testing-library/)
 - [react-native-svg](https://github.com/react-native-svg/react-native-svg)
 
