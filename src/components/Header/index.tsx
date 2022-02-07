@@ -17,12 +17,10 @@ export const Header = () => {
   <View style={styles.header}>
     <View style={styles.greetingArea}>
       <View style={styles.nameArea}>
-        <Text style={styles.greetingText}>Olá,</Text>
+        <Text style={styles.greetingText}>Hey,</Text>
         <Text 
-          style={[
-            styles.greetingText,
-            { fontWeight: 'bold', marginLeft: 7 }
-          ]}
+          style={styles.greetingTextBold}
+          testID="name"
         >
           Júnior Chagas
         </Text>
@@ -34,7 +32,7 @@ export const Header = () => {
           {fontSize: 16, marginTop: 5}
         ]}
       >
-        Bem Vindo! 😄
+        Welcome! 😄
       </Text>
     </View>
 
@@ -45,6 +43,7 @@ export const Header = () => {
     >
     <View style={[styles.pictureArea]}>
         <Image
+          testID="image"
           style={styles.picture}
           source={ProfileImage}
         />

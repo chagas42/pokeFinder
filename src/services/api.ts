@@ -27,7 +27,7 @@ interface Abilities {
   slot:number,
 }
 
-interface Stats {
+export interface Stats {
   base_stat: number,
   effort: number,
   stat: {
@@ -38,7 +38,6 @@ interface Stats {
 
 export interface PokemonDTO {
   abilities:Abilities[],
-  base_experience: number,
   height: number,
   id: number,
   name: string,
@@ -62,35 +61,26 @@ async function getAllPokemons() {
 
   const { data } = await api.get('/pokemon?limit=4&offset=0');
 
-  const next = data.next;
 
-  let result = [];
+  const result =  await createPokemonDTO(data.results);
 
-  try { 
-   result =  await createPokemonDTO(data.results);
-  } catch (error) {
-    console.log(error);
-  }
-
-  return result;
+  return {
+    next: data.next,
+    result,
+  };
 }
 
 async function createPokemonDTO(result: PokemonInfoList[]):Promise<any> {
 
-  const lista: any[] = [ ];
-
-  result.forEach( async (pokemon) => {
+  return result.forEach( async (pokemon) => {
     const {data, status } = await api.get(`/pokemon/${pokemon.name}`);
-    lista.push(data);
+    return data;
   })
-
-  return lista;
 }
 
 
 const services = {
  getAllPokemons,
- createPokemonDTO
 }
 
 

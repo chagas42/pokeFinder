@@ -1,31 +1,26 @@
 import { StyleSheet } from 'react-native';
+import { theme } from '../../global/theme';
 
 export const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#48D0B0',
     height:120,
-    width: 169,
+    width: '50%',
     maxWidth:'48%',
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius:10,
     marginBottom: 20,
-    // borderWidth: 2,
-    // borderRadius: 5,
-    // borderColor: '#000',
     padding: 15,
   },
   textId: {
     fontSize: 16,
-    color: '#3E8570',
-    fontWeight: 'bold',
+    fontFamily: theme.fonts.text600,
     alignSelf: 'flex-end',
-
   },
   textName: {
+    fontFamily: theme.fonts.text600,
     fontSize: 14,
-    fontWeight: 'bold',
-    color: '#FFF',
+    color: theme.colors.primary,
     alignSelf: 'flex-start',
     textTransform: 'capitalize',
   },
@@ -43,9 +38,10 @@ export const styles = StyleSheet.create({
   },
   type: {
     fontSize:10,
+    fontFamily: theme.fonts.text600,
     textTransform: 'capitalize',
     textAlign: 'center',
-    color: '#FFF',
+    color: theme.colors.primary,
     fontWeight: 'bold',
     zIndex: 3,
   }

@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { theme } from '../../global/theme';
 
 export const styles = StyleSheet.create({
   container: {
@@ -10,7 +11,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: '#494949',
+    backgroundColor: theme.colors.secondary,
     height: 155,
     width: '100%',
     borderBottomRightRadius: 25,
@@ -21,8 +22,15 @@ export const styles = StyleSheet.create({
     marginTop: 20
   },
   greetingText: {
+    fontSize: 20,
+    fontFamily: theme.fonts.text400,
+    color: theme.colors.primary,
+  },
+  greetingTextBold: { 
     fontSize: 20, 
-    color: '#FFFFFF',
+    fontFamily: theme.fonts.text600,
+    color: theme.colors.primary,
+    marginLeft: 7 
   },
   nameArea: {
     flexDirection: 'row',
@@ -37,13 +45,13 @@ export const styles = StyleSheet.create({
     height: 50,
     width: 50,
     borderWidth: 2,
-    borderColor: '#FFFFFF',
+    borderColor: theme.colors.primary,
     borderRadius: 10,
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 20,
     marginTop: 10, 
-    backgroundColor: '#FFFFFF',
+    backgroundColor: theme.colors.primary,
   },
   picture: {
     height:47,
