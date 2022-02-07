@@ -6,7 +6,7 @@
 
 ## Objetivo
 
-Este aplicativo foi desenvolvido para o teste técnico de uma de uma oportunidade de Zappts.
+Este aplicativo foi desenvolvido para o teste técnico de uma oportunidade de trabalho na Zappts.
 
 
 ## ✨ Tecnologias
