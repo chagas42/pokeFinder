@@ -42,7 +42,7 @@ Alguns diferenciais adicionados:
 
 ### Scroll Infinito
 
-![Scroll Infinito](https://user-images.githubusercontent.com/51445448/152859044-176018a7-3201-4a82-8605-50da207e1d6b.gif);
+![Scroll Infinito](https://user-images.githubusercontent.com/51445448/152864011-97b8e5e5-0ba2-47ad-9682-ad4bb56e10ec.gif);
 
 
 ## 🚀 Como executar
