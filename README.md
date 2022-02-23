@@ -1,5 +1,3 @@
-# PokeFinder 
-
 <h1 align="center">
   <img alt="Plant Manager" title="Plant Manager" src=".github/logo.png" />
 </h1>
