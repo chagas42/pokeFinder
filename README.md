@@ -38,11 +38,12 @@ Alguns diferenciais adicionados:
 
 ### Busca do Pokemon pelo nome
 
-![Busca pelo nome](https://user-images.githubusercontent.com/51445448/152857954-732cccc1-cb08-423f-9da5-dfdb99851144.gif);
+<img alt="Plant Manager" title="Plant Manager" src="https://user-images.githubusercontent.com/51445448/152857954-732cccc1-cb08-423f-9da5-dfdb99851144.gif"  height="800px"/>
 
 ### Scroll Infinito
 
-![Scroll Infinito](https://user-images.githubusercontent.com/51445448/152864011-97b8e5e5-0ba2-47ad-9682-ad4bb56e10ec.gif);
+<img alt="Plant Manager" title="Plant Manager" src="https://user-images.githubusercontent.com/51445448/152864011-97b8e5e5-0ba2-47ad-9682-ad4bb56e10ec.gif"  height="800px"/>
+
 
 
 ## 🚀 Como executar
